@@ -1,19 +1,20 @@
-body {
-    background-color: blueviolet;
-}
-
-div.card {
-    margin-top: auto;
-    margin-left: auto;
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
     width: fit-content;
     height: fit-content;
-    border: 4px solid purple;
-    border-radius: 10px;
+
     padding: 15px;
 }
 
 p {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 3em;
-    color: white;
+    font-size: 3em;    
+}
+
+.hello  {
+    text-align: center;
 }
