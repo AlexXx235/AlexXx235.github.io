@@ -1,0 +1,14 @@
+body {
+    background-color: blueviolet;
+}
+
+div {
+    align-self: center;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+}
+
+p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
