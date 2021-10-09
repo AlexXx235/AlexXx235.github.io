@@ -2,8 +2,9 @@ body {
     background-color: blueviolet;
 }
 
-div {
-    margin: auto;
+div.card {
+    margin-top: auto;
+    margin-left: auto;
     width: fit-content;
     height: fit-content;
     border: 4px solid purple;
@@ -13,5 +14,6 @@ div {
 
 p {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 3em;
     color: white;
 }
