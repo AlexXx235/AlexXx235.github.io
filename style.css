@@ -3,12 +3,13 @@ body {
 }
 
 div {
-    align-self: center;
-    width: auto;
-    height: auto;
-    border: 2px solid black;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid violet;
 }
 
 p {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
 }
