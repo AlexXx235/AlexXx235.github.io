@@ -13,7 +13,6 @@ body {
     font-weight: bold;
     font-size: 48px;
     line-height: 60px;
-    color: #FFFFFF;
 }
 
 .link_block {
@@ -23,5 +22,5 @@ body {
 }
 
 .link {
-    color: yellow;
+    color: red;
 }
