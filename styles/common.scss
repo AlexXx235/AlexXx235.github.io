@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #770072;
+}
+
+.container {
+  min-width: 300px;
+}
+
+.header {
+  width: 100%;
+  background-color: #660077;
+  height: 40px;
+  border-bottom: white 2px solid;
+}
+@media (min-width: 1200px) {
+  .header {
+    height: 60px;
+  }
+}
+
+.content {
+  min-height: 100%;
+}
+
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}

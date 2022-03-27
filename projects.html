@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css">
-    <title>Projects</title>
+    <link rel="stylesheet" href="styles/zero.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>Alex</title>
 </head>
 <body>
 <div class="container">
     <header class="header">
         <nav class="nav">
-            <a href="index.html" class="nav__item">About Me</a>
+            <a href="index.html" class="nav__item ">About Me</a>
             <a href="#" class="nav__item nav__item_selected">Projects</a>
         </nav>
     </header>
-    <main>Coming soon...</main>
+    <main class="content">
+        <div class="projects">
+            <a href="./projects/voting.html">
+                <div class="project">
+                    <img src="./images/voting/voting1.png" alt="" class="project__img">
+                    <p class="project__title">Voting</p>
+                </div>
+            </a>
+            <a href="./projects/mystudy.html">
+                <div class="project">
+                    <img src="./images/mystudy/logo.png" alt="" class="project__img">
+                    <p class="project__title">MyStudy</p>
+                </div>
+            </a>
+            <a href="./projects/library.html">
+                <div class="project">
+                    <img src="./images/library/library0.png" alt="" class="project__img">
+                    <p class="project__title">Library</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="project">
+                    <img src="./images/coming_soon.jpg" alt="" class="project__img">
+                    <p class="project__title">Something else</p>
+                </div>
+            </a>
+        </div>
+
+    </main>
 </div>
 </body>
 </html>

@@ -1,0 +1,65 @@
+/*-------      PROJECTS      -------*/
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding-top: 30px;
+}
+.projects a {
+  display: block;
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 360px) {
+  .projects a {
+    margin: 0 20px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .projects {
+    align-items: stretch;
+  }
+  .projects a {
+    max-height: 250px;
+    margin: 0 20px 20px;
+  }
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 225px;
+  height: 100%;
+  padding: 12px 9px 5px;
+  background: linear-gradient(188.83deg, #580066 17.22%, rgba(255, 255, 255, 0.23) 103.61%);
+  border: 2px solid #580066;
+  filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.45));
+}
+.project:hover {
+  transform: scale(1.02);
+}
+.project__img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.project__title {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 1024px) {
+  .project {
+    width: 320px;
+  }
+  .project__title {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=projects.css.map */
